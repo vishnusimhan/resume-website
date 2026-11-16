@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vishnu Simhan | Resume</title>
+  <meta name="description" content="Personal resume website of Vishnu Simhan, B.Planning student at MANIT Bhopal and BBA DBE student at IIM Bangalore.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="nav-logo">Vishnu Simhan</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span></button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="hero-hello">Hi, I'm</p>
+        <h1>Vishnu Simhan</h1>
+        <p class="hero-sub">From Madurai, India. Studying planning in Bhopal and business in Bangalore, and happiest on a court or a pitch.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-solid">Get in touch</a>
+          <a href="#about" class="btn btn-line">Read my story</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-block"></div>
+        <img src="images/vishnu.jpg" alt="Portrait of Vishnu Simhan smiling and holding a glass of tea">
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <h2 class="reveal">A planner in the making, with a head for business</h2>
+        <div class="about-copy reveal">
+          <p>I'm a student who enjoys working out how cities take shape and how organisations keep moving. That curiosity led me to a dual-degree path that lets me study both sides of the story.</p>
+          <p>My primary degree is the B.Planning at <strong>MANIT Bhopal</strong>, where I'm now in my second year. Alongside it, I'm pursuing the BBA in Digital Business and Entrepreneurship (DBE) at <strong>IIM Bangalore</strong>.</p>
+          <p>Away from lectures you'll usually find me sketching, or playing a sport I love.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="wrap">
+        <h2 class="reveal">Education</h2>
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="dot"></span>
+            <h3>Class X</h3>
+            <p class="score">89.17%</p>
+          </li>
+          <li class="reveal">
+            <span class="dot"></span>
+            <h3>Class XII</h3>
+            <p class="score">79%</p>
+          </li>
+          <li class="reveal">
+            <span class="dot"></span>
+            <h3>B.Planning <span class="pill">Expected 2029</span></h3>
+            <p>Maulana Azad National Institute of Technology (MANIT), Bhopal. Primary degree, currently in second year.</p>
+          </li>
+          <li class="reveal">
+            <span class="dot"></span>
+            <h3>BBA in Digital Business and Entrepreneurship <span class="pill">Expected 2029</span></h3>
+            <p>Indian Institute of Management (IIM) Bangalore. Pursued alongside the primary degree.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="hobbies">
+      <div class="wrap">
+        <h2 class="reveal">Hobbies</h2>
+        <div class="hobby-grid">
+          <article class="card card-pink card-tall reveal">
+            <h3>Football</h3>
+            <p>My real passion. I began on the left wing, then learned every forward role. Over time I dropped into midfield as a playmaker and later learned to defend too. These days I'm comfortable anywhere on the pitch except between the posts, because goalkeeping is definitely not my thing.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Basketball</h3>
+            <p>The game I grew up with. I started as a point guard and gradually picked up every position, so I'm at home wherever the team needs me.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Drawing</h3>
+            <p>My quiet counterpart to sport. Putting ideas on paper helps me see things clearly, and it pairs nicely with a planner's eye for space.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="wrap">
+        <h2 class="reveal">Achievements</h2>
+        <ul class="ach-list">
+          <li class="reveal">
+            <h3>Represented MANIT at the All India Inter NIT Sports Meet</h3>
+            <p>Played basketball for my college on the national NIT stage.</p>
+          </li>
+          <li class="reveal">
+            <h3>School Pupil Leader, Class XI</h3>
+            <p>Led the student body in my senior school years.</p>
+          </li>
+          <li class="reveal">
+            <h3>Assistant School Pupil Leader, Class IX</h3>
+            <p>My first leadership role, supporting the pupil leader and my classmates.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="wrap">
+        <h2 class="reveal">Let's talk</h2>
+        <p class="reveal contact-lead">Questions, ideas or a game of football? Reach out any time.</p>
+        <div class="contact-links reveal">
+          <a href="mailto:vishnusimhan.a@gmail.com">vishnusimhan.a@gmail.com</a>
+          <a href="tel:+919487917117">+91 94879 17117</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Vishnu Simhan. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
